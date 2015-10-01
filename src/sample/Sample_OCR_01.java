@@ -2,6 +2,8 @@ package sample;
 
 import org.sikuli.basics.Settings;
 import org.sikuli.script.FindFailed;
+import org.sikuli.script.Region;
+import org.sikuli.script.Screen;
 
 import fp.forevo.manager.TafException;
 import sample.maps.Sample_OCR_01Map;
@@ -19,7 +21,7 @@ public class Sample_OCR_01 extends Sample_OCR_01Map {
 	private void run() throws TafException, FindFailed {
 		
 		//setDebugMode(true);
-		//runApp("Kalkulator");
+		//runApp("calc.exe");
 		Settings.ClickDelay = 0;
 		Settings.AutoWaitTimeout = 0;
 		//Settings.Highlight = true;

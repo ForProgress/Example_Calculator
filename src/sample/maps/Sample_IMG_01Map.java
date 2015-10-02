@@ -8,7 +8,7 @@ import fp.forevo.proxy.*;
  * Class generated automaticaly. Do not edit from text editor. Change it using Test Object Manager.
  * @author Test Object Manager by ForProgress
  * @see www.forprogress.com.pl
- * @since 2015-10-01 13:20:07
+ * @since 2015-10-01 14:03:27
  */
 public class Sample_IMG_01Map extends MasterScript {
 
@@ -172,5 +172,20 @@ public class Sample_IMG_01Map extends MasterScript {
 	 * <br/>
 	 */
 	protected Button widokNaukowy = getButton(tomgr, winKalkulator, "widokNaukowy");
+
+	/**
+	 * <b>Description:</b> The result text box<br/><br/>
+	 * <b>Driver:</b> Sikuli<br/>
+	 * <b>Class:</b> Element<br/>
+	 * <br/>
+	 * <b>File:</b> result.png<br/>
+	 * <b>Similarity:</b> 0.3<br/>
+	 * <b>Offset: </b> 0:0<br/>
+	 * <b>Tags: </b> <br/>
+	 * <div style="background: url('C:\Workspace\Example_Calculator\res\sample\Sample_IMG_01\result.png') no-repeat;width:196px;height:54px;">
+	 * <img style="margin-left:93px;margin-top:22px" src="C:\Program Files\ForProgress\ForEVO\point.png"></div>
+	 * <br/>
+	 */
+	protected Element result = getElement(tomgr, winKalkulator, "result");
 
 }

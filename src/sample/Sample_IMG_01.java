@@ -1,9 +1,6 @@
 package sample;
 
-import java.util.Iterator;
-
 import org.sikuli.basics.Settings;
-import org.sikuli.script.Match;
 
 import fp.forevo.manager.TafException;
 import sample.maps.Sample_IMG_01Map;
@@ -20,7 +17,7 @@ public class Sample_IMG_01 extends Sample_IMG_01Map {
 	
 	private void run() throws TafException {
 		//setDebugMode(true);
-		runApp("calc.exe");
+		//runApp("calc.exe");
 		Settings.ClickDelay = 0;
 		Settings.AutoWaitTimeout = 0;
 		//Settings.Highlight = true;
@@ -36,10 +33,14 @@ public class Sample_IMG_01 extends Sample_IMG_01Map {
 		btn5.click();
 		btnEquals.click();
 		
+		result.assertText("168");
+		
+		/*
 		menuWidok.click();
 		widokNaukowy.click();
 		
 		menuWidok.click();
 		widokStandardowy.click();
+		*/
 	}
 }

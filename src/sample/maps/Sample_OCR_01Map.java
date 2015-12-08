@@ -8,7 +8,7 @@ import fp.forevo.proxy.*;
  * Class generated automaticaly. Do not edit from text editor. Change it using Test Object Manager.
  * @author Test Object Manager by ForProgress
  * @see www.forprogress.com.pl
- * @since 2015-10-01 11:13:58
+ * @since 2015-12-08 11:50:00
  */
 public class Sample_OCR_01Map extends MasterScript {
 
@@ -135,7 +135,7 @@ public class Sample_OCR_01Map extends MasterScript {
 	 * <b>File:</b> menuWidok.png<br/>
 	 * <b>Offset: </b> -63:-88<br/>
 	 * <b>Tags: </b> <br/>
-	 * <div style="background: url('C:\Workspace\Example_Calculator\res\sample\Sample_OCR_01\menuWidok.png') no-repeat;width:161px;height:187px;">
+	 * <div style="background: url('D:\GitHub\Example_Calculator\res\sample\Sample_OCR_01\menuWidok.png') no-repeat;width:161px;height:187px;">
 	 * <img style="margin-left:12px;margin-top:0px" src="C:\Program Files\ForProgress\ForEVO\point.png"></div>
 	 * <br/>
 	 */
@@ -149,7 +149,7 @@ public class Sample_OCR_01Map extends MasterScript {
 	 * <b>File:</b> menuWidok.png<br/>
 	 * <b>Offset: </b> -60:-69<br/>
 	 * <b>Tags: </b> <br/>
-	 * <div style="background: url('C:\Workspace\Example_Calculator\res\sample\Sample_OCR_01\menuWidok.png') no-repeat;width:161px;height:187px;">
+	 * <div style="background: url('D:\GitHub\Example_Calculator\res\sample\Sample_OCR_01\menuWidok.png') no-repeat;width:161px;height:187px;">
 	 * <img style="margin-left:15px;margin-top:19px" src="C:\Program Files\ForProgress\ForEVO\point.png"></div>
 	 * <br/>
 	 */

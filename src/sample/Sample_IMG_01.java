@@ -16,6 +16,8 @@ public class Sample_IMG_01 extends Sample_IMG_01Map {
 	}
 	
 	private void run() throws TafException {
+		setTag("Win7");
+		
 		//setDebugMode(true);
 		//runApp("calc.exe");
 		Settings.ClickDelay = 0;

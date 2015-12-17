@@ -8,7 +8,7 @@ import fp.forevo.proxy.*;
  * Class generated automaticaly. Do not edit from text editor. Change it using Test Object Manager.
  * @author Test Object Manager by ForProgress
  * @see www.forprogress.com.pl
- * @since 2015-12-08 11:50:00
+ * @since 2015-12-16 12:35:34
  */
 public class Sample_OCR_01Map extends MasterScript {
 

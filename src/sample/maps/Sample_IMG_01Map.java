@@ -8,14 +8,14 @@ import fp.forevo.proxy.*;
  * Class generated automaticaly. Do not edit from text editor. Change it using Test Object Manager.
  * @author Test Object Manager by ForProgress
  * @see www.forprogress.com.pl
- * @since 2015-12-08 11:50:00
+ * @since 2015-12-16 13:46:25
  */
 public class Sample_IMG_01Map extends MasterScript {
 
 	private TestObjectManager tomgr = new TestObjectManager(getProjectPath(this.getClass()), "res/sample/Sample_IMG_01/Sample_IMG_01.map");
 
 	/**
-	 * <b>Description:</b> 
+	 * <b>Description:</b> mmmvmvsc
 	 */
 	protected Window winKalkulator = getWindow(tomgr, "winKalkulator");
 

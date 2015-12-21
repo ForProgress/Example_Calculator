@@ -12,7 +12,7 @@ public class SampleTest {
 	Verify verify = new Verify();
 		
 	private void run() throws TafException {
-		
+				
 		common.jSetConfiguration();
 		
 		common.jSetTag("Win7New");

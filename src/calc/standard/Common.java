@@ -22,6 +22,7 @@ public class Common extends CommonMap {
 	 * Set default configuration
 	 */
 	public void jSetConfiguration() {
+		conf.setDbLog(true);
 		Settings.ActionLogs = false;
 	}
 	
@@ -29,7 +30,7 @@ public class Common extends CommonMap {
 	 * Run calculator method
 	 */
 	public void jRunCalculator() {
-		log.startProcess("Calculator");
+		log.startTest("Simble calculator test");
 		runApp("calc.exe");
 	}
 	
@@ -54,7 +55,6 @@ public class Common extends CommonMap {
 	 */
 	public void jCloseCalculator() throws TafException {
 		btnClose.click();
-		log.endProcess();
 	}
 	
 	/**

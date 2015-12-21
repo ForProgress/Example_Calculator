@@ -20,6 +20,8 @@ public class AddNumbers extends AddNumbersMap {
 	 * @throws TafException 
 	 */
 	public int jAddTwoIntNumbers(int x, int y) throws TafException {
+		log.info("AddTwoIntNumbers - Start");
+		
 		// clear result
 		btnC.click();
 		
@@ -33,6 +35,8 @@ public class AddNumbers extends AddNumbersMap {
 		// click all digits from y
 		for(Character c : getCharacterList("" + y))
 			getButton(c).click();
+		
+		log.info("AddTwoIntNumbers - Stop");
 		
 		return x + y;
 	}
@@ -45,6 +49,8 @@ public class AddNumbers extends AddNumbersMap {
 	 * @throws TafException 
 	 */
 	public double jAddTwoDoubleNumbers(double x, double y) throws TafException {
+		log.info("AddTwoDoubleNumbers - Start");
+		
 		// clear result
 		btnC.click();
 		
@@ -58,6 +64,8 @@ public class AddNumbers extends AddNumbersMap {
 		// click all digits from y
 		for(Character c : getCharacterList("" + y))
 			getButton(c).click();
+		
+		log.info("AddTwoDoubleNumbers - Stop");
 		
 		return x + y;
 	}

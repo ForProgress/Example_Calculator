@@ -13,7 +13,7 @@ public class SampleTest {
 		
 	private void run() throws TafException {
 				
-		common.jSetConfiguration();
+		common.jStartTest("TC_Calculator_Java");
 		
 		common.jSetTag("Win7New");
 		

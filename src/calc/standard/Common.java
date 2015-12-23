@@ -1,7 +1,5 @@
 package calc.standard;
 
-import org.sikuli.basics.Settings;
-
 import calc.standard.maps.CommonMap;
 import fp.forevo.manager.TafException;
 
@@ -9,6 +7,14 @@ import fp.forevo.manager.TafException;
  * Common keywords
  */
 public class Common extends CommonMap {
+	
+	/**
+	 * Start test for dbLog
+	 * @param testName
+	 */
+	public void jStartTest(String testName) {
+		log.startTest(testName);
+	}
 	
 	/**
 	 * Wait
@@ -19,18 +25,9 @@ public class Common extends CommonMap {
 	}
 	
 	/**
-	 * Set default configuration
-	 */
-	public void jSetConfiguration() {
-		conf.setDbLog(true);
-		Settings.ActionLogs = false;
-	}
-	
-	/**
 	 * Run calculator method
 	 */
 	public void jRunCalculator() {
-		log.startTest("Simble calculator test");
 		runApp("calc.exe");
 	}
 	

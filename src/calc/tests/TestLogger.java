@@ -1,5 +1,6 @@
 package calc.tests;
 
+import fp.forevo.manager.Conf;
 import fp.forevo.manager.MasterScript;
 
 public class TestLogger extends MasterScript {
@@ -9,8 +10,8 @@ public class TestLogger extends MasterScript {
 	}
 
 	private void run() {
-		conf.setDbLog(true);
-		System.out.println(conf.isDbLog());
+		Conf.setDbLog(true);
+		System.out.println(Conf.isDbLog());
 
 		log.startTest("Sample");
 		
@@ -20,18 +21,18 @@ public class TestLogger extends MasterScript {
 	}
 	
 	private void jKeyword1() {
-		log.passed("Step1");
-		log.passed("Step2");
+		log.pass("Step1");
+		log.pass("Step2");
 	}
 	
 	private void jKeyword2() {
-		log.passed("Step3");
+		log.pass("Step3");
 		log.warning("Step4");
 	}
 	
 	private void jKeyword3() {
 		log.info("Step5");
-		log.info("Step6");
-		log.passed("Step7");
+		log.fail("Step6");
+		log.pass("Step7");
 	}	
 }

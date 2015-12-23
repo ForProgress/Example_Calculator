@@ -3,15 +3,17 @@ Documentation     Common keywords
 Library           calc.standard.Common
 
 *** Keywords ***
+StartTest
+    [Arguments]    ${testName}
+    [Documentation]     Start test for dbLog
+    ...    @param testName
+    jStartTest    ${testName}
+
 Sleep
     [Arguments]    ${second}
     [Documentation]     Wait
     ...    @param second - number of secons
     jSleep    ${second}
-
-SetConfiguration
-    [Documentation]     Set default configuration
-    jSetConfiguration
 
 RunCalculator
     [Documentation]     Run calculator method

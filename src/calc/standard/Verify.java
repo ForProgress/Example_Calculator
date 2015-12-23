@@ -16,10 +16,10 @@ public class Verify extends VerifyMap {
 		String calcResult = txtResult.getText();
 		log.info("Result: " + calcResult);
 		if (calcResult.equals(expectedResult)) {
-			log.passed("Result: " + calcResult);
+			log.pass("Result: " + calcResult);
 			return true;
 		} else {
-			log.passed("Result is " + calcResult + ", but expected is " + expectedResult, txtResult.capture());
+			log.fail("Result is " + calcResult + ", but expected is " + expectedResult, txtResult.capture());
 			return false;
 		}
 	}

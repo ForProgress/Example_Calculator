@@ -8,7 +8,7 @@ import fp.forevo.proxy.*;
  * Class generated automaticaly. Do not edit from text editor. Change it using Test Object Manager.
  * @author Test Object Manager by ForProgress
  * @see www.forprogress.com.pl
- * @since 2015-12-22 10:03:24
+ * @since 2015-12-23 09:11:43
  */
 public class VerifyMap extends MasterScript {
 
@@ -25,6 +25,7 @@ public class VerifyMap extends MasterScript {
 	 * <b>Class:</b> TextBox<br/>
 	 * <br/>
 	 * <b>File:</b> calc_win7_new.png<br/>
+	 * <b>Similarity:</b> 0.5<br/>
 	 * <b>Offset: </b> 84:-82<br/>
 	 * <b>Tags: </b> 8009bd1d-d911-42cd-ad3b-cc276d67464c<br/>
 	 * <div style="overflow:visible;width:212px;height:285px;border:1px solid #e3e3c8;">

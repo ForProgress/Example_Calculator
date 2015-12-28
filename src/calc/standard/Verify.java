@@ -14,7 +14,6 @@ public class Verify extends VerifyMap {
 	 */
 	public boolean jVerifyResult(String expectedResult) {
 		String calcResult = txtResult.getText();
-		log.info("Result: " + calcResult);
 		if (calcResult.equals(expectedResult)) {
 			log.pass("Result: " + calcResult);
 			return true;
